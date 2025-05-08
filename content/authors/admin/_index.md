@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: Kaitlyn Schisler
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Kaitlyn
+last_name: Schisler
 
 # Status emoji
 status:
@@ -20,92 +20,93 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Laboratory Technician
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: Nice Pak
+    url: https://www.nicepak.com/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:kaitlyn.m.schisler@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
+ # - icon: brands/x
+ #   url: https://twitter.com/GetResearchDev
   - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://www.instagram.com/k.m.aultman/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/k-schisler
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://www.linkedin.com/in/kaitlyn-schisler/
+ # - icon: academicons/google-scholar
+ #   url: https://scholar.google.com/
+ # - icon: academicons/orcid
+ #   url: https://orcid.org/
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Health & Medical Data
+  - Biotech & Environmental Data
+  - Forensics & Anthropology
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: MSc Biological Data Sciencec
+    institution: Arizona State University
+    date_start: Fall 2024
+    date_end: Spring 2026
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      In progress ⏳ — Interdisciplinary graduate program that integrates biological research with statistical analysis, data engineering, and computational methods, preparing students for careers in bioinformatics, computational biology, and related fields.
+
+      Completed courses include:
+      - Statistics for Biological Data Science
+      - Python for Problem Solving
+      - Database Systems and Python
+   # button:
+   #   text: 'Read Thesis'
+   #   url: 'https://example.com'
+
+  - area: BSc Forensics and Anthropology
+    institution: Trent University
+    date_start: 2016
+    date_end: 2020
     summary: |
-      GPA: 3.8/4.0
+      GPA: 3.96/4.0
 
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
+      - Non-Calculus Statistics
+      - Human & Non-Human DNA Forensics
+      - Applied Population Genetics
+      - Applied Molecular Genetics
       
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Senior Analytical Laboratory Technician
+    company_name: Nice Pak
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2023-06-14
     date_end: ''
     summary: |2-
+      Promoted from Analytical Laboratory Technician on 2025-03-16.
+
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+      - Developing and optimizing test methods for quantifying preservatives in wet wipe solutions
+      - Coordinating daily laboratory operations, including training, sample scheduling, equipment maintenance, and workflow optimization
+      - Tracking and analyzing data trends to proactively identify issues and minimize production downtime
+      - Supporting method validation and documentation to ensure regulatory compliance and audit readiness
+      - Collaborating cross-functionally with production, quality assurance, and R&D teams to troubleshoot issues and implement process improvements
+  - position: Project Scientist
+    company_name: GeneCapture
     company_url: ''
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2022-01-08
+    date_end: 2023-06-02
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Responsibilities included:
+      - Leading project setup/management for in-house slide coating process
+      - Analyzes and reports results in a clear and concise manner using tools like Microsoft Office Suite, Monday.com, ImageJ, Spyder
+      - Developed/optimized protocols for in-house processes which resulted in a 20x increase in assay signal
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -113,41 +114,54 @@ skills:
   - name: Technical Skills
     items:
       - name: Python
-        description: ''
-        percent: 80
+        description: 'Basic data analysis, visualization, and scripting using pandas, matplotlib, and seaborn'
+        percent: 55
         icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
+      - name: R
+        description: 'Statistical analysis, plotting, and ecological modeling using base R and common packages like ggplot2 and dplyr'
+        percent: 65
+        icon: function
       - name: SQL
-        description: ''
-        percent: 40
+        description: 'Fundamental querying, filtering, and relational joins; building confidence through coursework'
+        percent: 50
         icon: circle-stack
+      - name: Microsoft Excel
+        description: 'Data cleaning, pivot tables, formulas, and charting for lab and project work'
+        percent: 85
+        icon: table-cells
+      - name: Data Science
+        description: 'Course-based experience in data wrangling, visualization, and interpretation of biological datasets'
+        percent: 70
+        icon: chart-bar
+      - name: Jupyter Notebooks
+        description: 'Using notebooks for Python-based exploration and presenting project findings'
+        percent: 60
+        icon: notebook
+
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
+      - name: Gaming
+        description: 'Navigate complex systems, forge alliances, and uncover stories in digital realms where strategy meets play'
         percent: 100
         icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
+      - name: Reading
+        description: 'Exploring thought provoking ideas and real-world truths hidden between the covers of imaginative, fictional worlds.'
+        percent: 85
+        icon: book
+      - name: Hiking
+        description: 'Wander winding trails and forest paths to recharge, reflect, and reconnect with the world beyond the screen (with my dog, of course).'
+        percent: 65
+        icon: person-simple-walk
 
 languages:
   - name: English
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: French
+    percent: 50
+  - name: Spanish
+    percent: 10
 
 # Awards.
 #   Add/remove as many awards below as you like.
